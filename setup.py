@@ -12,8 +12,8 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/StingzLD/pgbackup',
-    packages=find_packages('src'),
-    package_dir={'': 'src'},
+    packages=find_packages('1'),
+    package_dir={'': '1'},
     install_requires=['boto3'],
     python_requires='>=3.6',
     entry_points={
